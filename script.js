@@ -149,6 +149,7 @@ finishLove();
 // NO BUTTON RUN
 // =========================
 
+
 function moveNo(){
 
 let x=Math.random()*(window.innerWidth-180);
@@ -166,6 +167,23 @@ noBtn.style.top=y+"px";
 noBtn.addEventListener("mouseenter",moveNo);
 
 noBtn.addEventListener("touchstart",moveNo);
+
+
+// =========================
+// Small Button Animation
+// =========================
+
+setInterval(()=>{
+
+yesBtn.style.transform="scale(1.08)";
+
+setTimeout(()=>{
+
+yesBtn.style.transform="scale(1)";
+
+},300);
+
+},1200);
 
 
 // =========================
