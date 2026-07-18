@@ -4,7 +4,7 @@
 
 const questions = [
 
-"Hey Kriti...❤️",
+"Hey...❤️",
 
 "Tmr kache ekta proshno chilo...🥺",
 
